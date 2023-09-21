@@ -9,8 +9,8 @@ export default function Pricing() {
         <div className={styles.pricingItem}>
           <h3>Celebration Ceremonies</h3>
           <p>
-            from £750.00 - to include personal meeting, all emails, phone calls and Zoom meetings
-            and travel.
+            from £750 - to include personal meeting, all emails, phone calls and Zoom meetings and
+            travel.
           </p>
         </div>
 

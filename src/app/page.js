@@ -5,6 +5,7 @@ import styles from "./page.module.scss";
 import { useIsMenuOpenContext } from "@/context/IsMenuOpenContext";
 
 // components
+import Intro from "@/components/Intro/Intro";
 import Hero from "@/components/Hero/Hero";
 import About from "@/components/About/About";
 import Ceremonies from "@/components/Ceremonies/Ceremonies";
@@ -16,6 +17,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Hero />
+      <Intro />
       <About />
       <Ceremonies />
       <Considerations />
