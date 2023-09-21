@@ -1,0 +1,9 @@
+:root {
+  --nav-height: 4rem;
+  --bg-color-main: hsl(200, 60%, 85%);
+  --text-color-main: hsl(270, 10%, 40%);
+  --text-color-light: hsl(190, 20%, 80%);
+  --header-color: hsl(270, 10%, 30%);
+  --nav-bg-color: hsl(260, 50%, 7%);
+  --accent-color-pa: hsla(200, 50%, 70%, 0.5);
+}

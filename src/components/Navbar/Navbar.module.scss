@@ -1,0 +1,126 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  backdrop-filter: blur(10px);
+
+  @media (min-width: 900px) {
+    top: 0;
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.nav {
+  font-family: "SF Mono", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: var(--nav-height);
+  padding: 0 1rem;
+
+  @media (min-width: 900px) {
+    padding: 0 3rem;
+  }
+
+  @media (min-width: 1200px) {
+    padding: 0 5rem;
+  }
+}
+
+.logo {
+  font-family: "SF Mono", serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--text-color-main);
+  text-decoration: none;
+
+  @media (min-width: 900px) {
+    font-size: 1.5rem;
+  }
+}
+
+.menuContainer {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 50%;
+  height: 100dvh;
+  background-color: hsl(200, 40%, 40%);
+
+  z-index: -1;
+
+  transform: translateX(100%);
+  transition: ease-in-out 0.2s;
+
+  &.isOpen {
+    transform: translateX(0);
+  }
+
+  @media (min-width: 900px) {
+    position: relative;
+    width: fit-content;
+    height: 100%;
+    flex-direction: row;
+    transform: translate(0);
+    background-color: transparent;
+    z-index: 1;
+  }
+}
+
+.menu {
+  list-style: none;
+  flex-direction: column;
+  width: 100%;
+  font-size: 1rem;
+  text-align: center;
+
+  @media (min-width: 900px) {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    width: fit-content;
+    height: 100%;
+    gap: 1rem;
+  }
+}
+
+.item {
+  @media (min-width: 900px) {
+  }
+}
+
+.link {
+  display: block;
+  padding: 1rem 8px;
+  text-decoration: none;
+  color: var(--text-color-light);
+  font-weight: bold;
+
+  @media (min-width: 900px) {
+    padding: 0;
+    color: var(--text-color-main);
+  }
+}
+
+.socialMenu {
+  list-style: none;
+  text-align: center;
+
+  li {
+    padding: 1rem;
+    position: relative;
+  }
+
+  @media (min-width: 900px) {
+    display: flex;
+  }
+}

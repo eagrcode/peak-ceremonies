@@ -1,0 +1,24 @@
+.section {
+  display: flex;
+
+  align-items: center;
+  text-align: center;
+  padding: 3rem 0;
+  gap: 1rem;
+
+  .textCon {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 1rem;
+  }
+
+  .imageCon {
+    display: none;
+
+    @media (min-width: 900px) {
+      display: block;
+      flex: 1;
+    }
+  }
+}
