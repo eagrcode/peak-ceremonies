@@ -6,7 +6,7 @@ export default function NamingCeremony() {
     <div className={styles.section}>
       <div className={styles.imageCon}>IMAGE</div>
       <div className={styles.textCon}>
-        <h2>Naming Ceremony</h2>
+        <h3>Naming Ceremony</h3>
         <p>
           A naming ceremony is a wonderful opportunity to mark the entrance of your baby to the
           world, or another child to your family. It serves to strengthen the bonds between

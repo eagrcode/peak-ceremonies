@@ -6,7 +6,7 @@ export default function RenewalCeremony() {
     <div className={styles.section}>
       <div className={styles.imageCon}>IMAGE</div>
       <div className={styles.textCon}>
-        <h2>Renewal Ceremony</h2>
+        <h3>Renewal Ceremony</h3>
         <p>This can take place wherever and whenever you like, and in whatever form you wish.</p>
         <p>It might be a small gathering at home, or something more extravagant elsewhere.</p>
         <p>

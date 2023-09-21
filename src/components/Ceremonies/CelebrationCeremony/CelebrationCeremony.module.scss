@@ -1,8 +1,7 @@
 .section {
   display: flex;
   align-items: center;
-  text-align: center;
-  padding: 3rem 0;
+
   gap: 1rem;
 
   .textCon {
@@ -10,13 +9,24 @@
     flex-direction: column;
     flex: 1;
     gap: 1rem;
+    background-color: hsl(280, 15%, 20%);
+    border-radius: 1px;
+    padding: 1rem;
+    color: var(--text-color-light);
+
+    h3 {
+      color: var(--header-color-light);
+    }
   }
 
   .imageCon {
     display: none;
 
     @media (min-width: 900px) {
-      display: block;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 3rem;
       flex: 1;
     }
   }

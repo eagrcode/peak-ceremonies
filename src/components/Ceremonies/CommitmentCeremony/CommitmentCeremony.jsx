@@ -5,7 +5,7 @@ export default function CommitmentCeremony() {
   return (
     <div className={styles.section}>
       <div className={styles.textCon}>
-        <h2>Commitment Ceremony</h2>
+        <h3>Commitment Ceremony</h3>
         <p>
           For many, a marriage/civil partnership is not for them. The legalities are not what they
           want, or perhaps such legalities might cause complications for people who have been

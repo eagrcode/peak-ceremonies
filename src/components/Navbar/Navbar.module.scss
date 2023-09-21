@@ -3,7 +3,8 @@
   top: 0;
   z-index: 999;
   width: 100%;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(25px);
+  border-bottom: solid 1px hsl(300, 10%, 50%);
 
   @media (min-width: 900px) {
     top: 0;
@@ -22,11 +23,14 @@
   padding: 0 1rem;
 
   @media (min-width: 900px) {
-    padding: 0 3rem;
+    flex-direction: column;
+    padding: 1rem 3rem;
+    gap: 1rem;
+    height: 100%;
   }
 
   @media (min-width: 1200px) {
-    padding: 0 5rem;
+    padding: 1rem 5rem;
   }
 }
 
@@ -89,7 +93,7 @@
     align-items: center;
     width: fit-content;
     height: 100%;
-    gap: 1rem;
+    gap: 2rem;
   }
 }
 

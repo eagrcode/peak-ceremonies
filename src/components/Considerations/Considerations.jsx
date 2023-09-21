@@ -39,7 +39,7 @@ export default function Considerations() {
         child is a permanent part of the family.
       </p>
       <p>
-        SThe symbolic acts are limitless. Between us, we will be able to craft a ceremony with or
+        The symbolic acts are limitless. Between us, we will be able to craft a ceremony with or
         without symbolic acts, that feels like you.
       </p>
     </section>

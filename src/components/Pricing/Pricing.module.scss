@@ -1,16 +1,41 @@
 .section {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   text-align: center;
   padding: 3rem 1rem;
-  gap: 1rem;
+  gap: 3rem;
   width: 100%;
   max-width: 900px;
 
+  @media (min-width: 768px) {
+    padding: 3rem 0;
+  }
+
   .pricingCon {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
     gap: 1rem;
+
+    @media (min-width: 900px) {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .pricingItem {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      background-color: hsl(280, 15%, 20%);
+      border-radius: 1px;
+      padding: 1rem;
+      color: var(--text-color-light);
+
+      h3 {
+        color: var(--header-color-light);
+      }
+    }
   }
 }

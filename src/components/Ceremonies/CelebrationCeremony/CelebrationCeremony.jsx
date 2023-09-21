@@ -5,7 +5,7 @@ export default function CelebrationCeremony() {
   return (
     <div className={styles.section}>
       <div className={styles.textCon}>
-        <h2>Celebration Ceremony</h2>
+        <h3>Celebration Ceremony</h3>
         <p>
           Ideally, we will meet as soon as possible, so that you can decide whether you are happy
           for me to be your celebrant. If so, I will listen to your story, hear about the funny and
