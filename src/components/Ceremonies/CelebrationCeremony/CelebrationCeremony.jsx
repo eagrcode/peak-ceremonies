@@ -29,6 +29,11 @@ export default function CelebrationCeremony() {
           the dog that carried the rings, etc!
         </p>
         <p>It’s your day – if it’s physically possible, we do it your way!</p>
+        <p>
+          NB before you have a wedding/civil partnership celebration ceremony, you will need to have
+          been through a legal ceremony. Please ask me if you need to know more about this and I can
+          direct you appropriately.
+        </p>
       </div>
       <div className={styles.imageCon}>IMAGE</div>
     </div>

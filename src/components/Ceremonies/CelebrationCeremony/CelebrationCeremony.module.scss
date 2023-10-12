@@ -9,14 +9,10 @@
     flex-direction: column;
     flex: 1;
     gap: 1rem;
-    background-color: hsl(280, 15%, 20%);
+    background-color: var(--bg-color-main);
     border-radius: 1px;
     padding: 1rem;
-    color: var(--text-color-light);
-
-    h3 {
-      color: var(--header-color-light);
-    }
+    color: var(--text-color-main);
   }
 
   .imageCon {

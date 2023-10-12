@@ -15,9 +15,7 @@ export default function NamingCeremony() {
           child. It can be a most beautiful ceremony.
         </p>
         <p>
-          {`I will meet with you (and the little one's please!) to hear what you would like to have
-          included in the ceremony. Perhaps other family members would like to be involved in
-          reading a verse, lighting a candle and more.`}
+          {`I will meet with you (and the little one(s) please!) to hear what you would like to have included in the ceremony.  Perhaps other family members would like to be involved in reading a verse, lighting a candle and more. `}
         </p>
         <p>
           You will approve the final format before we go to what will be a most special day for you

@@ -18,7 +18,7 @@
   outline: transparent;
   padding: 8px;
   font-size: 1rem;
-  border: solid 2px;
+  border: solid 2px var(--nav-color);
   border-radius: 1px;
   background-color: transparent;
 
@@ -39,11 +39,11 @@
   font-weight: 600;
   padding: 8px;
   cursor: pointer;
-  background-color: var(--text-color-main);
-  color: white;
+  background-color: var(--accent-dark-green);
+  color: var(--accent-color);
 
   &:hover {
-    filter: brightness(80%);
+    background-color: hsl(180, 30%, 15%);
   }
 }
 

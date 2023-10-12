@@ -14,7 +14,7 @@ export default function CommitmentCeremony() {
         <p>
           But that does not mean that you cannot have a demonstration of your love for one another.
           A Commitment Ceremony can do just that – showcase your commitment to, and love for, each
-          other. It can take whatever form you wish in a place of your choosing.
+          other. It can take whatever form you wish. in a place of your choosing.
         </p>
         <p>
           I will help you carve a ceremony that is you – unique and personal, - an expression of

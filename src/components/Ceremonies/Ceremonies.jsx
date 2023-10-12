@@ -7,7 +7,7 @@ import RenewalCeremony from "./RenewalCeremony/RenewalCeremony";
 
 export default function Ceremonies() {
   return (
-    <section className={styles.section}>
+    <section className={styles.section} id="ceremonies">
       <h2>Ceremonies</h2>
       <CelebrationCeremony />
       <RenewalCeremony />

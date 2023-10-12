@@ -5,12 +5,12 @@
   align-items: center;
   text-align: center;
   padding: 3rem 1rem;
-  gap: 3rem;
+  gap: 1rem;
   width: 100%;
-  max-width: 900px;
+  background-color: var(--bg-color-sec);
 
   @media (min-width: 768px) {
-    padding: 3rem 0;
+    padding: 5rem 3rem;
   }
 
   .pricingCon {
@@ -25,16 +25,18 @@
     .pricingItem {
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      justify-content: space-between;
       align-items: center;
       gap: 1rem;
-      background-color: hsl(280, 15%, 20%);
+      background-color: var(--accent-dark-green);
+
       border-radius: 1px;
       padding: 1rem;
       color: var(--text-color-light);
+      max-width: 300px;
 
       h3 {
-        color: var(--header-color-light);
+        color: var(--accent-color);
       }
     }
   }

@@ -26,27 +26,27 @@ export default function Navbar() {
         <div className={isOpen ? `${styles.menuContainer} ${styles.isOpen}` : styles.menuContainer}>
           <ul className={styles.menu}>
             <li className={styles.item} onClick={() => setIsOpen(false)}>
-              <Link className={styles.link} href="#scroll-to-about" scroll={false}>
+              <Link className={styles.link} href="#about">
                 About
               </Link>
             </li>
             <li className={styles.item} onClick={() => setIsOpen(false)}>
-              <Link className={styles.link} href="#scroll-to-projects" scroll={false}>
+              <Link className={styles.link} href="#ceremonies">
                 Ceremonies
               </Link>
             </li>
             <li className={styles.item} onClick={() => setIsOpen(false)}>
-              <Link className={styles.link} href="#scroll-to-contact" scroll={false}>
+              <Link className={styles.link} href="#considerations">
                 Considerations
               </Link>
             </li>
             <li className={styles.item} onClick={() => setIsOpen(false)}>
-              <Link className={styles.link} href="#scroll-to-contact" scroll={false}>
+              <Link className={styles.link} href="#pricing">
                 Pricing
               </Link>
             </li>
             <li className={styles.item} onClick={() => setIsOpen(false)}>
-              <Link className={styles.link} href="#scroll-to-contact" scroll={false}>
+              <Link className={styles.link} href="#contact">
                 Contact
               </Link>
             </li>

@@ -17,7 +17,7 @@ export default function RenewalCeremony() {
         <p>
           I will discuss your plans with you and assist where I can in working out the
           practicalities, as well as preparing a script that reflects you and how far you have come.
-          I can voice those emotions that you want to be heard out loud, or help you in the
+          I can voice those emotions that you want to be heard out loud or help you in the
           preparation of the personal vows you wish to make.
         </p>
         <p>

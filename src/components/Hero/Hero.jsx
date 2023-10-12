@@ -7,20 +7,9 @@ export default function Hero() {
       <div className={styles.hero}>
         <h1>Peak Ceremonies</h1>
         <em>Personal Ceremonies from Your Heart</em>
-        <button className={styles.heroBtn}>Contact</button>
-        {/* <div className={styles.textWrapper}>
-          <div className={styles.textCon}>
-            <p>
-              Everyone should have at least one day in their life that is all about their happiness.
-            </p>
-          </div>
-          <div className={styles.textCon}>
-            <p>A day when they can show love for a partner.</p>
-          </div>
-          <div className={styles.textCon}>
-            <p>A day when they can welcome a baby or child into the family.</p>
-          </div>
-        </div> */}
+        <a href="#contact">
+          <button className={styles.heroBtn}>Get in Touch</button>
+        </a>
       </div>
     </section>
   );

@@ -3,8 +3,7 @@
   top: 0;
   z-index: 999;
   width: 100%;
-  backdrop-filter: blur(25px);
-  border-bottom: solid 1px hsl(300, 10%, 50%);
+  background-color: var(--nav-color);
 
   @media (min-width: 900px) {
     top: 0;
@@ -35,10 +34,10 @@
 }
 
 .logo {
-  font-family: "SF Mono", serif;
+  font-family: "Playfair", serif;
   font-size: 1.2rem;
-  font-weight: 500;
-  color: var(--text-color-main);
+  font-weight: 600;
+  color: var(--text-color-light);
   text-decoration: none;
 
   @media (min-width: 900px) {
@@ -57,7 +56,7 @@
   gap: 1rem;
   width: 50%;
   height: 100dvh;
-  background-color: hsl(200, 40%, 40%);
+  background-color: var(--nav-color);
 
   z-index: -1;
 
@@ -107,11 +106,15 @@
   padding: 1rem 8px;
   text-decoration: none;
   color: var(--text-color-light);
-  font-weight: bold;
+  font-weight: 500;
+
+  &:hover {
+    color: white;
+  }
 
   @media (min-width: 900px) {
     padding: 0;
-    color: var(--text-color-main);
+    color: var(--text-color-light);
   }
 }
 
